@@ -1,0 +1,293 @@
+
+.quote-grid .gchoice label,
+.logo-class .gchoice label,
+.digital-class .gchoice label,
+.print-class .gchoice label,
+.apparel-class .gchoice label,
+.type-class .gchoice label,
+.web-class .gchoice label
+{
+	max-width: 14em !important;
+	width: 14em !important;
+	padding: 1em 2em;
+	height: 15em;
+	color:aliceblue !important;
+	background-size:40% !important;
+	background-repeat: no-repeat !important;
+	background-position: center 79% !important;
+	}
+
+
+/* //////////////////////////////// */
+/* M A I N  */
+/* //////////////////////////////// */
+
+.quote-grid .gchoice:nth-of-type(1) label {
+background:url('../svg/logo.svg');
+}
+
+.quote-grid .gchoice:nth-of-type(2)  label {
+background:url('../svg/digital.svg');
+}
+
+
+.quote-grid .gchoice:nth-of-type(3) label {
+background:url('../svg/print.svg');
+}
+
+.quote-grid .gchoice:nth-of-type(4)  label {
+background:url('../svg/apparel.svg');
+}
+
+
+.quote-grid .gchoice:nth-of-type(5) label {
+background:url('../svg/font.svg');
+}
+
+.quote-grid .gchoice:nth-of-type(6)  label {
+background:url('../svg/web.svg');
+}
+
+
+/* //////////////////////////////// */
+/* L O G O  */
+/* //////////////////////////////// */
+
+.logo-class .gchoice:nth-of-type(1) label{background:url('../svg/img.svg');}
+
+
+
+.logo-class .gchoice:nth-of-type(2) label{background:url('../svg/text.svg');}
+
+
+
+.logo-class .gchoice:nth-of-type(3) label{background:url('../svg/img-text.svg');}
+
+
+
+/* //////////////////////////////// */
+/* D I G I T A L */
+/* //////////////////////////////// */
+
+
+.digital-class .gchoice:nth-of-type(1) label{background:url('../svg/icon.svg');}
+
+
+
+.digital-class .gchoice:nth-of-type(2) label{background:url('../svg/crop.svg');}
+
+
+
+.digital-class .gchoice:nth-of-type(3) label{background:url('../svg/photo-edit.svg');}
+
+
+.digital-class .gchoice:nth-of-type(4) label{background:url('../svg/banner.svg');}
+
+
+
+.digital-class .gchoice:nth-of-type(5) label{background:url('../svg/snapchat.svg');}
+
+
+
+
+
+
+
+/* //////////////////////////////// */
+/* P R I N T */
+/* //////////////////////////////// */
+
+
+
+.print-class .gchoice:nth-of-type(1) label{background:url('../svg/sticker.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(2) label{background:url('../svg/business-card.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(3) label{background:url('../svg/flyer.svg');}
+
+
+.print-class .gchoice:nth-of-type(4) label{background:url('../svg/poster.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(5) label{background:url('../svg/brochure.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(6) label{background:url('../svg/book-cover.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(7) label{background:url('../svg/book-layout.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(8) label{background:url('../svg/magazine.svg');}
+
+
+.print-class .gchoice:nth-of-type(9) label{background:url('../svg/album.svg');}
+
+
+
+.print-class .gchoice:nth-of-type(10) label{background:url('../svg/truck.svg');}
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////// */
+/* A P P A R E L  */
+/* //////////////////////////////// */
+
+
+.apparel-class .gchoice:nth-of-type(1) label{background:url('../svg/shirt.svg');}
+
+
+
+.apparel-class .gchoice:nth-of-type(2) label{background:url('../svg/pants.svg');}
+
+
+
+.apparel-class .gchoice:nth-of-type(3) label{background:url('../svg/backpack.svg');}
+
+
+.apparel-class .gchoice:nth-of-type(4) label{background:url('../svg/hat.svg');}
+
+
+
+.apparel-class .gchoice:nth-of-type(5) label{background:url('../svg/ring.svg');}
+
+
+
+
+
+
+/* //////////////////////////////// */
+/* F O N T  */
+/* //////////////////////////////// */
+
+
+
+
+.type-class .gchoice:nth-of-type(1) label{background:url('../svg/serif.svg');}
+
+
+
+.type-class .gchoice:nth-of-type(2) label{background:url('../svg/san-serif.svg');}
+
+
+
+.type-class .gchoice:nth-of-type(3) label{background:url('../svg/slab.svg');}
+
+
+.type-class .gchoice:nth-of-type(4) label{background:url('../svg/display.svg');}
+
+
+
+.type-class .gchoice:nth-of-type(5) label{background:url('../svg/cursiveii.svg');}
+
+
+
+.type-class .gchoice:nth-of-type(6) label{background:url('../svg/calligraphy.svg');}
+
+
+
+.type-class .gchoice:nth-of-type(7) label{background:url('../svg/blackletter.svg');}
+
+
+
+.type-class .gchoice:nth-of-type(8) label{background:url('../svg/graffiti.svg');}
+
+
+
+
+
+
+
+
+/* //////////////////////////////// */
+/* W E B   ~  D E S I G N  */
+/* //////////////////////////////// */
+
+
+
+
+.web-class .gchoice:nth-of-type(1) label{background:url('../svg/blog.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(2) label{background:url('../svg/newsletter.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(3) label{background:url('../svg/img-gallery.svg');}
+
+
+.web-class .gchoice:nth-of-type(4) label{background:url('../svg/video-player.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(5) label{background:url('../svg/music-player.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(6) label{background:url('../svg/shop.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(7) label{background:url('../svg/appointments.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(8) label{background:url('../svg/food-menu.svg');}
+
+
+.web-class .gchoice:nth-of-type(9) label{background:url('../svg/event-ticket.svg');}
+
+
+
+.web-class .gchoice:nth-of-type(10) label{background:url('../svg/education.svg');}
+
+.web-class .gchoice:nth-of-type(11) label{background:url('../svg/forum.svg');}
+
+.web-class .gchoice:nth-of-type(12) label{background:url('../svg/animation.svg');}
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////// */
+
+/* May Need to Add specific parent classes to selectors */
+.logo-class .gchoice, .digital-class .gchoice,.apparel-class .gchoice, .print-class .gchoice,
+.type-class .gchoice, .web-class .gchoice, .total-class * .gchoice {
+		  margin: 20px 0px;
+		  color:aliceblue;
+	  }
+/* //////////////////////////////// */
+
+
+
+.digital-class{}
+.print-class{}
+.apparel-class{}
+.type-class{}
+.web-class{}
+.total-class{}
+

@@ -1,0 +1,58 @@
+    
+.site-navigation{height:93%;z-index: 99;}
+.form-check-input,.form-select {
+ background-color: #1f1f1f;
+ -moz-appearance: none;
+ background-repeat: no-repeat
+}
+.form-check-input:checked, .form-select:checked  {
+ background-color: #55E6C1 !important;
+}
+
+
+
+.menu-btn{background-color: #111;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border: #55E6C1 2px outset;
+}
+
+.menu-btn:hover{border: #ffffff 2px inset;}
+
+.menu-btn:hover > i {
+    color:black
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media all and (min-width:768px){
+
+}
+
+
+
+
+@media all and (min-height: 600px) and (max-height: 767px) {
+.nav li {}
+.nav li a {padding:.5rem; font-size:.6em;}
+.nav li a i{}  
+ 
+}
+
+@media all and (min-height: 768px) and (max-height: 1079px) {
+.nav li a {padding:.6rem;}
+}
+
+@media all and (min-height: 1080px) and (max-height: 1279px) {}
+
+@media all and (min-height: 1280px) and (max-height: 1439px) {}
+
+@media all and (min-height: 1440px) and (max-height: 1599px) {}
+
+@media only screen and (min-height: 1600px) {}

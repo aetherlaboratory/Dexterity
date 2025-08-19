@@ -1,0 +1,105 @@
+/* 
+ * theme-colors.css
+ * Overrides Bootstrap 5 color system using CSS variables and HSL for easy customization.
+ * Applies to: background, text, border, buttons
+ * Usage: Include after Bootstrap in your HTML or as part of your custom build.
+ */
+
+:root {
+  /* === Theme Color HSL Definitions === */
+  --bs-primary-h: 220;
+  --bs-primary-s: 100%;
+  --bs-primary-l: 50%;
+
+  --bs-secondary-h: 270;
+  --bs-secondary-s: 6%;
+  --bs-secondary-l: 44%;
+
+  --bs-success-h: 140;
+  --bs-success-s: 70%;
+  --bs-success-l: 40%;
+
+  --bs-danger-h: 0;
+  --bs-danger-s: 80%;
+  --bs-danger-l: 50%;
+
+  --bs-warning-h: 45;
+  --bs-warning-s: 100%;
+  --bs-warning-l: 50%;
+
+  --bs-info-h: 200;
+  --bs-info-s: 100%;
+  --bs-info-l: 45%;
+
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+
+  /* === Derived Final Colors === */
+  --bs-primary: hsl(var(--bs-primary-h), var(--bs-primary-s), var(--bs-primary-l));
+  --bs-secondary: hsl(var(--bs-secondary-h), var(--bs-secondary-s), var(--bs-secondary-l));
+  --bs-success: hsl(var(--bs-success-h), var(--bs-success-s), var(--bs-success-l));
+  --bs-danger: hsl(var(--bs-danger-h), var(--bs-danger-s), var(--bs-danger-l));
+  --bs-warning: hsl(var(--bs-warning-h), var(--bs-warning-s), var(--bs-warning-l));
+  --bs-info: hsl(var(--bs-info-h), var(--bs-info-s), var(--bs-info-l));
+}
+
+/* === Backgrounds === */
+.bg-primary    { background-color: var(--bs-primary) !important; color: #fff !important; }
+.bg-secondary  { background-color: var(--bs-secondary) !important; color: #fff !important; }
+.bg-success    { background-color: var(--bs-success) !important; color: #fff !important; }
+.bg-danger     { background-color: var(--bs-danger) !important; color: #fff !important; }
+.bg-warning    { background-color: var(--bs-warning) !important; color: #212529 !important; }
+.bg-info       { background-color: var(--bs-info) !important; color: #fff !important; }
+
+/* === Text Colors === */
+.text-primary    { color: var(--bs-primary) !important; }
+.text-secondary  { color: var(--bs-secondary) !important; }
+.text-success    { color: var(--bs-success) !important; }
+.text-danger     { color: var(--bs-danger) !important; }
+.text-warning    { color: var(--bs-warning) !important; }
+.text-info       { color: var(--bs-info) !important; }
+
+/* === Border Colors === */
+.border-primary    { border-color: var(--bs-primary) !important; }
+.border-secondary  { border-color: var(--bs-secondary) !important; }
+.border-success    { border-color: var(--bs-success) !important; }
+.border-danger     { border-color: var(--bs-danger) !important; }
+.border-warning    { border-color: var(--bs-warning) !important; }
+.border-info       { border-color: var(--bs-info) !important; }
+
+/* === Buttons === */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: #fff !important;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary) !important;
+  border-color: var(--bs-secondary) !important;
+  color: #fff !important;
+}
+
+.btn-success {
+  background-color: var(--bs-success) !important;
+  border-color: var(--bs-success) !important;
+  color: #fff !important;
+}
+
+.btn-danger {
+  background-color: var(--bs-danger) !important;
+  border-color: var(--bs-danger) !important;
+  color: #fff !important;
+}
+
+.btn-warning {
+  background-color: var(--bs-warning) !important;
+  border-color: var(--bs-warning) !important;
+  color: #212529 !important;
+}
+
+.btn-info {
+  background-color: var(--bs-info) !important;
+  border-color: var(--bs-info) !important;
+  color: #fff !important;
+}

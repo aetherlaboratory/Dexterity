@@ -1,0 +1,349 @@
+/*
+Theme Name: Dexterity
+Theme URI: https://ae-lab.io/dexterity/
+Author: Gerald Vicks
+Author URI: https://ae-lab.io/
+Description: A WordPress theme for graphic design portfolios, stores, downloads, logos, digital art, print art, apparel, design price quotes, photo galleries, and custom fonts.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: portfolio, store, downloads, logos, digital art, print art, apparel, design, price quote, photo galleries, custom fonts
+Text Domain: dexterity
+*/
+/* Import synced Bootstrap theme color overrides */
+@import url("theme-colors.css");
+
+/*
+font-family: 'Atomic Age', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Bruno Ace', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Flow Block', cursive;
+font-family: 'Flow Circular', cursive;
+font-family: 'Noto Sans Symbols 2', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Rationale', sans-serif;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Maze', cursive;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'VT323', monospace;
+*/
+
+
+
+.apex{z-index: 999;}
+
+.z-n1 {
+  z-index: -1;
+}
+.z-0 {
+  z-index: 0;
+}
+.z-1 {
+  z-index: 1;
+}
+.z-2 {
+  z-index: 2;
+}
+.z-3 {
+  z-index: 3;
+}
+
+.menu-btn{z-index: 9999;}
+.min-vh-85 {
+  min-height: 85vh !important;
+}
+
+.gfield .gfield_checkbox li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.gfield .gchoice {
+  display: inline-block;
+}
+
+.gfield input[type="checkbox"] {
+  display: none !important;
+}
+
+.gfield .gfield_checkbox label {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.gfield .gfield_checkbox input[type="checkbox"]:checked + label {
+  opacity: 0.5;
+  background-color: #000;
+}
+
+.mw-960 {
+  max-width: 960px;
+}
+
+hr {
+  border-top: 1px solid #55e6c1 !important;
+  box-shadow: 0 0 2px #55e6c1, 0 0 4px #55e6c1, 0 0 1rem #55e6c1,
+    0 0 4rem #55e6c1 !important;
+}
+
+.nav-item:hover > i,
+.nav-item:hover > span {
+  color: aliceblue !important;
+}
+html {
+  background-color: #1e272e;
+}
+body{
+    background-image: linear-gradient(#0a100f 0, #101a18 7%, #101a18 80%, #1b2c28 100%);
+}
+.goyard {
+  background: conic-gradient(
+      from 0deg at calc(500% / 6) calc(100% / 3),
+      #0e614c 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(
+      from -120deg at calc(100% / 6) calc(100% / 3),
+      #1bba91 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(
+      from 120deg at calc(100% / 3) calc(500% / 6),
+      #55e6c1 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(
+      from 120deg at calc(200% / 3) calc(500% / 6),
+      #55e6c1 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(
+      from -180deg at calc(100% / 3) 50%,
+      #1bba91 60deg,
+      #55e6c1 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(
+      from 60deg at calc(200% / 3) 50%,
+      #55e6c1 60deg,
+      #0e614c 0 120deg,
+      #0000 0
+    ),
+    conic-gradient(
+      from -60deg at 50% calc(100% / 3),
+      #55e6c1 120deg,
+      #1bba91 0 240deg,
+      #0e614c 0
+    );
+  background-size: 111px 64px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #1e272e !important;
+  font-family: "Share Tech Mono", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Audiowide", cursive !important;
+  color: aliceblue !important;
+  font-weight: normal !important;
+}
+h1 {
+  font-size: 2em !important;
+}
+h2 {
+  font-size: 1.7em !important;
+}
+h3 {
+  font-size: 1.5em !important;
+}
+h4 {
+  font-size: 1.25em !important;
+}
+h5 {
+  font-size: 1.1em !important;
+}
+/*
+
+@media all and (min-width: 1px) and (max-width: 767px) {
+  html > body.admin-bar, html > body.admin-bar header {
+  }
+}
+*/
+.east {
+  float: right;
+  right: 0px;
+}
+
+.west {
+  float: left;
+  left: 0px;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+svg.icon.minty {
+  max-width: 5em;
+  height: 4em;
+}
+
+html body .bg-dark {
+  background-color: #111 !important;
+}
+
+.alice {
+  color: aliceblue;
+}
+.minty {
+  color: #55e6c1;
+  fill: #55e6c1;
+}
+.bg-minty {
+  background-color: #55e6c1;
+}
+.hover-bg-minty:hover{
+  background-color: #55e6c1 !important;
+}
+.c-pink {
+  color: pink;
+}
+.c-red {
+  color: red;
+}
+.c-orange {
+  color: orange;
+}
+.c-yellow {
+  color: gold;
+}
+.c-green {
+  color: green;
+}
+.c-blue {
+  color: blue;
+}
+.c-purple {
+  color: purple;
+}
+.c-white {
+  color: white;
+}
+.c-grey {
+  color: gray;
+}
+.c-black {
+  color: black;
+}
+.c-brown {
+  color: brown;
+}
+.c-beige {
+  color: wheat;
+}
+.c-gold {
+  color: goldenrod;
+}
+.c-silver {
+  color: grey;
+}
+.c-pattern {
+  color: red;
+}
+
+
+.copyright span {
+  top: 40px;
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+}
+
+/*
+#wpadminbar {
+    top: 0px !important;
+    position: fixed;
+  display: none;
+}
+*/
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  right: 0px;
+  left: 0px;
+}
+
+
+a.added_to_cart.wc-forward {
+    margin-left: 1em;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+.woocommerce-cart-form__cart-item.cart_item:nth-of-type(even) {
+  background-color: #111;
+}
+
+
+
+
+.left-card::after{
+  content:"";
+  width:600px;
+  height:5px; 
+  position: absolute;
+  display:block;
+left:0px;
+  background:lime;
+}
+
+
+
+
+.right-card::after{
+  content:"";
+  width:600px;
+  height:5px; 
+  position: absolute;
+  display:block;
+right:0px;
+  background:lime;
+}
+
+.gform_wrapper.gravity-theme .gform_validation_errors{background:none !important;}
+
+
+
+.about-icon {width:3em; height:3em;}

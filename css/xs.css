@@ -1,0 +1,14 @@
+
+
+
+@media all and (max-width:479px) {
+	
+	.splash-shadow svg{width:110%!important; height:100vh;}
+	
+	.splash svg,.splash-shadow svg {
+	width: 100% !important;
+	margin: 0px auto;
+	display: block;
+	position: relative;
+}
+}
