@@ -1,2 +1,2 @@
-# dexterity
+# Dexterity
 Graphic Design/Branding
