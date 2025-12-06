@@ -24,7 +24,7 @@
 				
 <div class="col-12 col-md-6 col-lg-3 my-5">
 	<a class="image-link" data-bs-toggle="modal" data-bs-target="#logo-modal<?php echo $counter; ?>" href="#">
-		<img style="background-size: 100%;" class="w-75 mx-auto rounded-5" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full');?>" /></a>
+		<img style="background-size: 100%;" class="w-75 mx-auto rounded-5" src="<?php the_post_thumbnail_url();?>" /></a>
 
 			<h2><?php the_title();?></h2>
             <small><?php echo get_the_date('m/d/Y'); ?></small>

@@ -4,8 +4,8 @@
 <hr class="animate__animated animate__fadeInLeft animate__delay-1s">
 
 <div class="container-fluid">
-<div class="col-12">
-<div class="row text-center col-12">
+<div class="w-100">
+<div class="row text-center w-100">
 
 <?php
 $args = array(

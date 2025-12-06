@@ -46,7 +46,7 @@ if (is_front_page()) {
 </head>
 <?php get_template_part( 'svg-icons' );?>
 
-<body class="demo-2">
+<body>
 <div class="position-absolute apex start-0 top-0 ms-3">
 <a href="/home"><svg class="icon" style="width:3em; max-height:4em;">
   <use xlink:href="#site-logo"></use>

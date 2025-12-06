@@ -4,7 +4,7 @@
 				'post_type' => 'logo', // Assuming 'photos' is your CPT
 				'posts_per_page' => 8,
 				'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
-				'order' => 'ASC', // Ascending order
+				'order' => 'DESC', // Ascending order
 				'orderby' => 'date' // Order by date
 				);
 				$query = new WP_Query($args);?>
@@ -17,11 +17,11 @@
   <div class="modal-dialog modal-fullscreen">
 	<div class="modal-content bg-dark text-light">
 		<!-- inside modal -->
-	<button type="button" class="btn-success btn-close end-0 text-end me-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	<button type="button" class="btn-success btn-close Start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
 	
 	<div class="row vh-100 col-12 align-items-center justify-content-center">
 <div class="col-6">
-<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full');?>">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="<?php the_post_thumbnail_url();?>">
 </div>
 
 
