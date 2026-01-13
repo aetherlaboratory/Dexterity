@@ -62,6 +62,6 @@ if (is_front_page()) {
 
 <div class="position-relative">
 
-<button class="menu-btn hover-bg-minty position-fixed top-0 mt-1 me-0 px-4 end-0 translate-end
-animate__animated animate__fadeInRight animate__delay-.5s"><i class="py-4 fs-1 c-white fas fa-bars"></i></button>
+<button class="menu-btn hover-bg-minty position-fixed top-0 mt-1 me-0 px-3 end-0 translate-end
+animate__animated animate__fadeInRight animate__delay-.5s"><i class="py-3 fs-5 c-white fas fa-bars"></i></button>
 </div>
